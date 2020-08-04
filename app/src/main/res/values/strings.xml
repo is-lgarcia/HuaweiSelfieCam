@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HuaweiSelfieCam</string>
+    <string name="welcome_text">Bienvenido a Huawei Selfie Cam</string>
+    <string name="description_text">Bienvenido a la mejor cámara de selfies del mercado. Para usarme recuerda auntenticarte con tu Huawei ID</string>
 </resources>
