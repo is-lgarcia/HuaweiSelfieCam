@@ -4,12 +4,14 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import com.huawei.hms.support.hwid.HuaweiIdAuthManager
 import com.huawei.hms.support.hwid.request.HuaweiIdAuthParams
 import com.huawei.hms.support.hwid.request.HuaweiIdAuthParamsHelper
 import com.luisg.huaweiselfiecam.R
 import com.luisg.huaweiselfiecam.main.MainActivity
+import com.luisg.huaweiselfiecam.push.GetTokenAction
 import kotlinx.android.synthetic.main.activity_auth.*
 
 class AuthActivity : AppCompatActivity() {
@@ -19,6 +21,10 @@ class AuthActivity : AppCompatActivity() {
 
         btnLogin.setOnClickListener {
             loginHuaweiIdAuth()
+        }
+
+        GetTokenAction().getToken(this){
+            Log.d("PushToken", it)
         }
     }
 
