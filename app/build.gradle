@@ -21,7 +21,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('huaweiselfiecam')
+            storeFile file('huaweiselfiecam.jks')
             keyAlias ('key0')
             keyPassword ('Lui5847.')
             storePassword ('Lui5847.')
@@ -63,6 +63,7 @@ dependencies {
     implementation 'com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.1.300'
     // Import the facial feature detection model package.
     implementation 'com.huawei.hms:ml-computer-vision-face-feature-model:2.0.1.300'
+    implementation 'com.google.android.material:material:1.1.0-alpha06'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

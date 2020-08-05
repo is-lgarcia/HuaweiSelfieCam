@@ -2,4 +2,8 @@
     <string name="app_name">HuaweiSelfieCam</string>
     <string name="welcome_text">Bienvenido a Huawei Selfie Cam</string>
     <string name="description_text">Bienvenido a la mejor cámara de selfies del mercado. Para usarme recuerda auntenticarte con tu Huawei ID</string>
+    <string name="title_app">Huawei Selfie Cam</string>
+    <string name="description_app">Existen dos formas de capturar tu selfie. La cámara toma tu foto si hay varias personas sonriendo. O toma la foto si hau una persona más cerca sonriendo</string>
+    <string name="more_people">Muchos Sonrien</string>
+    <string name="one_people">El Más Cerca Sonrie</string>
 </resources>
